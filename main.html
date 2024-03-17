@@ -4,12 +4,53 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart Layout</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+    <h2 class="headings block-heading">Shopping Cart</h2>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="product">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="image1.jpg" class="img-fluid" alt="Product Image 1">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image2.jpg" class="img-fluid" alt="Product Image 2">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image3.jpg" class="img-fluid" alt="Product Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="summary">
+                <h4 class="headings">Summary</h4>
+                <div class="summary-block">
+                    <p>Total: $100</p>
+                    <p>Shipping: $10</p>
+                    <p>Discount: $0</p>
+                </div>
+                <button class="btn btn-primary">Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 

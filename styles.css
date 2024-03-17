@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.headings {
+        color: #3b99e0;
+    }
+
+    .summary {
+        border-top: 1px solid #5ea4f3;
+        background-color: #f7fbff;
+        padding: 20px;
+    }
+
+    .product {
+        margin-top: 20px;
+    }
+
+    .block-heading {
+        text-align: center;
+    }
+
+    .summary-block {
+        padding: 10px;
+        border-bottom: 1px solid #5ea4f3;
+    }
+
+    .summary-button {
+        background-color: #3b99e0;
+        color: white;
+    }
